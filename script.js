@@ -44,7 +44,7 @@ if ("IntersectionObserver" in window) {
 // 4. Copy email button
 const copy = document.getElementById("copy");
 copy.addEventListener("click", async () => {
-  const email = "pixolabsolutions@gmail.com";
+  const email = "info@pixolabsolutions.com";
   try { await navigator.clipboard.writeText(email); } catch (e) {
     const t = document.createElement("textarea");
     t.value = email; document.body.appendChild(t); t.select();
